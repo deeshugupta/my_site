@@ -1,0 +1,75 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #f2f1ef!important;
+}
+
+/*
+
+Tangerine: #E37222
+Teal: #07889B
+Powder: #66B9BF
+Tan: #EEAA7B
+grey: #dddddd
+Text color
+#f2f1ef
+
+*/
+
+
+/*All Classes Css*/
+.project_card{
+  width: 280px;
+  height: 320px;
+  color: #f2f1ef;
+}
+.work_card{
+  width: 100%;
+  height: 320px;
+  color: #f2f1ef;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.language_image{
+  width: 96px;
+  margin-top: 5px;
+  display: block;
+  margin: auto;
+}
+
+.company_image{
+  width: 128px;
+  height: 128px;
+  display: block;
+  margin: auto;
+}
+.main_container{
+  width: 100%;
+}
+.personal_projects{
+  background-color: #66B9BF !important;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.work_experience{
+  background-color: #E37222;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.group_title{
+  padding: 25px;
+  color: #f2f1ef;
+}
+
+/*All ID Css*/

@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "script": "app.js",
+      "env": {
+        "APP_PORT": 4000
+      }
+    }
+  ]
+}

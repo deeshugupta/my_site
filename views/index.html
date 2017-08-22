@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+    <head>
+        <title>Deepanshu Gupta</title>
+        <script src="javascripts/angular.min.js"></script>
+        <script src="javascripts/jquery-3.2.1.min.js"></script>
+        <script src="javascripts/bootstrap.min.js"></script>
+        <script src="javascripts/app.js" type="text/javascript"></script> <!-- not created yet -->
+
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    </head>
+
+    <body >
+        <div ng-controller="mainController">
+
+          <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse bg-faded"
+          style="background-color: #07889B">
+              <button class="navbar-toggler navbar-toggler-right"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">Deepanshu Gupta</a>
+
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://blog.deepanshugupta.in">Blog</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+
+          <div class="main_container">
+            <div class="work_experience">
+              <div class="group_title display-4">
+                Work Experience
+              </div>
+              <div ng-repeat="work_ex_list in work_experience" >
+                <div class= "row" style="padding: 5px;">
+                  <div class="col-6" ng-repeat="work_ex in work_ex_list">
+                    <div class="work_card">
+                      <img class="company_image"
+                      src="{{work_ex.image}}"
+                      alt="{{work_ex.name}}">
+                        <div class="card-block">
+                          <h4 class="card-title">{{work_ex.name}}</h4>
+                          <p class="card-text">
+                                Period: {{work_ex.start_time}} - {{work_ex.end_time}}
+                                <br/>
+                                Position: {{work_ex.position}}
+                                <br />
+                                Description: {{work_ex.description}}
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+              <div class="personal_projects">
+                <div class="group_title display-4">
+                  Personal Projects
+                </div>
+                <div ng-repeat="project_list in personal_projects" >
+                  <div class= "row" style="padding: 5px;">
+                    <div class="col-3" ng-repeat="project in project_list">
+                      <div class="text-center project_card">
+                        <img class="language_image"
+                        ng-if="project.language == 'Ruby'"
+                        src="images/ruby2.png"
+                        alt="{{project.name}}">
+                        <img class="language_image"
+                        ng-if="project.language == 'Python'"
+                        src="images/python2.png"
+                        alt="{{project.name}}">
+                        <img class="language_image"
+                        ng-if="project.language == 'Android'"
+                        src="images/andoid2.png"
+                        alt="{{project.name}}">
+                          <div class="card-block">
+                            <h4 class="card-title">{{project.name}}</h4>
+                            <p class="card-text">
+                              {{project.description}}
+                            </p>
+                          </div>
+                          <div class="footer">
+                            <a href="{{project.github}}"
+                            target="_blank">Github</a> |
+                            <a href="{{project.production}}"
+                            target="_blank">Live</a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
