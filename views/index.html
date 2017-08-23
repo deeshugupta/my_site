@@ -97,9 +97,12 @@
                             </p>
                           </div>
                           <div class="footer">
-                            <a href="{{project.github}}"
-                            target="_blank">Github</a> |
-                            <a href="{{project.production}}"
+                            <a ng-if="project.github != undefined"
+                            href="{{project.github}}"
+                            target="_blank">Github</a>
+                            <span ng-if="project.production != undefined">|</span>
+                            <a ng-if="project.production != undefined"
+                            href="{{project.production}}"
                             target="_blank">Live</a>
                           </div>
                       </div>

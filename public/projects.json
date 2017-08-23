@@ -21,6 +21,12 @@
         "github": "https://github.com/deeshugupta/ColorMemory",
         "production": "https://play.google.com/store/apps/details?id=com.colormem.ui&hl=en",
         "description": "Simple android game. See the sequence; Touch the sequence."
+      },
+      {
+        "name": "Employee Management",
+        "language": "Ruby",
+        "github": "https://github.com/deeshugupta/EmployeeManagement",
+        "description": "Ruby on Rails learning project, managing and tracking leaves of the employee"
       }
     ]
   ],
@@ -37,7 +43,7 @@
         "start_time": "July 2013",
         "end_time": "June 2015",
         "position": "Software Engineer",
-        "work_ex": ""
+        "description": "As a software engineer, I was mainly responsible for providing scalable solutions to various product needs"
       },
       {
         "name": "TravelTriangle Pvt. Ltd.",
@@ -45,7 +51,7 @@
         "start_time": "June 2015",
         "end_time": "Present",
         "position": "Senior Software Engineer",
-        "work_ex": ""
+        "description": "As a Senior software engineer, I am responsible for defining architectures for product and implementing solutions which is scalable."
       }
     ]
   ]
