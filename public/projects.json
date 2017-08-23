@@ -32,6 +32,39 @@
   ],
   "work_projects":[
     [
+      {
+        "name": "Rule Engine",
+        "language": "Ruby",
+        "description": "Externalize the rules to make runtime changes in business logic, thus decreasing the turnaround time for any feature."
+      },
+      {
+        "name": "Elasticsearch Integration",
+        "language": "Ruby",
+        "description": "Integrate Elasticsearch in TT product for faster searches"
+      },
+      {
+        "name": "GST Implementation",
+        "language": "Ruby",
+        "description": "Government rules, change the system for accomodating the rules defined by Government. Architecture, Design and Implementation."
+      },
+      {
+        "name": "Email Template Engine",
+        "language": "Ruby",
+        "description": "CMS for email templates. A/B testing. Changing Templates on th GO."
+      }
+
+    ],
+    [
+      {
+        "name": "TravelTriangle Android App",
+        "language": "Android",
+        "description": "TT Android app. Created from scratch with others."
+      },
+      {
+        "name": "RCI Implementation",
+        "language": "Java",
+        "description": "SOAP based web service using Spring Framework to push data from Renolds to Kaarma."
+      }
 
     ]
   ],

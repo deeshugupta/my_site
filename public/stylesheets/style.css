@@ -67,6 +67,13 @@ Text color
   text-align: center;
 }
 
+.work_projects{
+  background-color: #EEAA7B !important;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
 .group_title{
   padding: 25px;
   color: #f2f1ef;

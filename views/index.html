@@ -19,8 +19,8 @@
               <button class="navbar-toggler navbar-toggler-right"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              data-target="#navbar"
+              aria-controls="navbar"
               aria-expanded="false"
               aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,11 +66,7 @@
 
             </div>
 
-
-
-
-
-              <div class="personal_projects">
+            <div class="personal_projects">
                 <div class="group_title display-4">
                   Personal Projects
                 </div>
@@ -89,6 +85,57 @@
                         <img class="language_image"
                         ng-if="project.language == 'Android'"
                         src="images/andoid2.png"
+                        alt="{{project.name}}">
+                        <img class="language_image"
+                        ng-if="project.language == 'Java'"
+                        src="images/java.png"
+                        alt="{{project.name}}">
+                          <div class="card-block">
+                            <h4 class="card-title">{{project.name}}</h4>
+                            <p class="card-text">
+                              {{project.description}}
+                            </p>
+                          </div>
+                          <div class="footer">
+                            <a ng-if="project.github != undefined"
+                            href="{{project.github}}"
+                            target="_blank">Github</a>
+                            <span ng-if="project.production != undefined">|</span>
+                            <a ng-if="project.production != undefined"
+                            href="{{project.production}}"
+                            target="_blank">Live</a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            <div class="work_projects">
+                <div class="group_title display-4">
+                  Work Projects
+                </div>
+                <div ng-repeat="project_list in work_projects" >
+                  <div class= "row" style="padding: 5px;">
+                    <div class="col-3" ng-repeat="project in project_list">
+                      <div class="text-center project_card">
+                        <img class="language_image"
+                        ng-if="project.language == 'Ruby'"
+                        src="images/ruby2.png"
+                        alt="{{project.name}}">
+                        <img class="language_image"
+                        ng-if="project.language == 'Python'"
+                        src="images/python2.png"
+                        alt="{{project.name}}">
+                        <img class="language_image"
+                        ng-if="project.language == 'Android'"
+                        src="images/andoid2.png"
+                        alt="{{project.name}}">
+                        <img class="language_image"
+                        ng-if="project.language == 'Java'"
+                        src="images/java.png"
                         alt="{{project.name}}">
                           <div class="card-block">
                             <h4 class="card-title">{{project.name}}</h4>
