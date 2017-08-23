@@ -60,6 +60,19 @@ Text color
   padding: 20px;
   text-align: center;
 }
+
+.about_me{
+  background-color: #66B9BF !important;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.text_color{
+  color: #f2f1ef;
+  font-size: 25px;
+}
+
 .work_experience{
   background-color: #EEAA7B;
   width: 100%;
@@ -77,6 +90,10 @@ Text color
 .group_title{
   padding: 25px;
   color: #f2f1ef;
+}
+
+.share_buttons{
+  display: inline-block;
 }
 
 /*All ID Css*/
