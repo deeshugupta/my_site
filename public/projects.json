@@ -76,15 +76,15 @@
         "start_time": "July 2013",
         "end_time": "June 2015",
         "position": "Software Engineer",
-        "description": "As a software engineer, I was mainly responsible for providing scalable solutions to various product needs"
+        "description": "Usually connected the dots."
       },
       {
         "name": "TravelTriangle Pvt. Ltd.",
         "image": "images/tt.jpg",
         "start_time": "June 2015",
         "end_time": "Present",
-        "position": "Senior Software Engineer",
-        "description": "As a Senior software engineer, I am responsible for defining architectures for product and implementing solutions which is scalable."
+        "position": "Associate Tech Lead",
+        "description": "I design Time Machines, venture into black holes and sometimes, just change a bulb."
       }
     ]
   ]
