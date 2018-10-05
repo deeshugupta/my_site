@@ -48,13 +48,17 @@
         "description": "Government rules, change the system for accomodating the rules defined by Government. Architecture, Design and Implementation."
       },
       {
-        "name": "Email Template Engine",
+        "name": "BU BT Engine",
         "language": "Ruby",
-        "description": "CMS for email templates. A/B testing. Changing Templates on th GO."
+        "description": "Lead assignment made easier. Who get what is trackable and can be customized to nth level."
       }
-
     ],
     [
+       {
+        "name": "Event Driven Architecure Implementation",
+        "language": "Ruby",
+        "description": "Fire an event and just handle it."
+      },
       {
         "name": "TravelTriangle Android App",
         "language": "Android",
